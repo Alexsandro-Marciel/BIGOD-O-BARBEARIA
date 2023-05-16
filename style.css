@@ -114,3 +114,8 @@ input::placeholder {
     font-weight: 700;
     text-align: left;
 }
+
+.draggable {
+    /* position: absolute; */
+    cursor: move;
+}

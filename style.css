@@ -26,6 +26,8 @@ h1 {
     color: #ffffff;
     text-align: left;
     padding: 15px;
+    line-height: 29px;
+
 
 }
 
@@ -120,4 +122,3 @@ input::placeholder {
     font-weight: 700;
     text-align: left;
 }
-

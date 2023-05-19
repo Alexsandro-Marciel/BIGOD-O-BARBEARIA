@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    font-size: 16px;
+}
+
 body {
     background: #424a55;
 }
@@ -17,15 +21,17 @@ h1 {
     color: #ffffff;
     text-align: center;
     margin-top: 17px;
+    margin-bottom: 17px;
+    font-size: 2rem;
 }
 
 .paragrafo {
 
-    font-size: 18px;
+    font-size: 1.125rem;
     /* margin: 20px 20px 40px 50px; */
     color: #ffffff;
     text-align: left;
-    padding: 15px;
+    padding: 20px;
     line-height: 29px;
 
 
@@ -121,4 +127,10 @@ input::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
 }

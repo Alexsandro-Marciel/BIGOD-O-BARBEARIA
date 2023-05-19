@@ -20,15 +20,16 @@ img {
 h1 {
     color: #ffffff;
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 32px;
+    padding: 10px;
 }
 
 .paragrafo {
     font-size: 1.125rem;
     color: #ffffff;
     text-align: left;
-    padding: 40px;
+    padding: 20px;
     line-height: 22px;
     align-items: center;
 
